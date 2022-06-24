@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #62BADA; 
+    background-image: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+    padding: 40px 9%;
+    
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    color: #111;
+    text-transform: uppercase;
+}
+nav ul{
+    width: 625px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1px 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #111;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 650;
+    width: 250px;
+}
+.sign-btn{
+    text-decoration: none;
+    color: #000;
+    margin-right: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Manrope';
+    
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4F46BA; 
+    border: none;
+    color: white;
+    padding: 20px 38px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.content{
+    margin-top: 13%;
+    width: 646px;
+}
+.content h1{
+    font-size: 67px;
+    font-weight: 800;
+    font-family: 'Manrope';
+    line-height: 93px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.content .content-info{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Manrope';
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #64607D;
+    margin-bottom: 55px;
+}
+.new-btn{
+    align-items: center;
+
+}
+.btn-start{
+    padding: 25px 50px;
+    border-radius: 50px;
+    background-color: #4F46BA; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;  
+}
+
+.play-icon{
+    height: 65px;
+    margin-left: 60px;
+    margin-right: 12px;  
+}
+.icon-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-info{
+    margin-bottom: 0px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    color: #3734A9;
+}
+.hero-botton-content{
+    color: #4F46BA;
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.circle-check-left{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 17px;
+    
+}
+.circle-check-right{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 17px;  
+}
+.circle-info{
+    color: #757095;
+}
+
+
+.hero-right-side{
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 200px;
+}
+.main-image{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.design-corner{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 98%;
+}
+.design-left{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 92%;
+}
+.design-right{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 25%;
+}
+
+
+
+.second-content{
+    position: relative;
+    height: 239px;
+    width: 100vw;
+    background: #F5F6F8;;
+    z-index: 100;
+}
+
+
+.content-info p{
+    font-family: 'Manrope';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.content-image{
+    display: flex;
+    align-items: flex-start;
+}
+.content-image div{
+    padding: 60px 95px;
+    width: 210px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7{
+    flex: 0.5;
+}
+
+
+
+/* .main-hero-section{
+    padding: 20 0rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem 0;
+}
+.main-hero-section h1{
+    width: 55rem;
+    font-size: 60px;
+    line-height: 9rem;
+}
+
+
+
+.hero-right-side{
+    position: absolute;
+    
+    top: 20%;
+    left: 70%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#Home-section{
+    height: 110vh;
+    width: 100%;
+    background-color: #62BADA; 
+    background-image: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    padding-top: 3.5rem;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    text-transform: uppercase;
+}
+header .header-info-right {
+    float: right;
+}
+.header-info-right ul li  {
+    font-size: 16px;
+    padding-left: 125px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #000000;
+}
+.header-info-right ul li button{
+    background-color: #4F46BA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+header .logo{
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-weight: 650;
+    color: #000000;
+}
+header .navbar a{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 2rem;
+    color: #000000;
+}
+header .navbar a:hover{
+    color: #666;
+}
+#menu-bar{
+    font-size: 10px;
+    cursor: pointer;
+    color: #666;
+    border: .1rem solid #666;
+    border-radius: .3rem;
+    padding: .5rem 1.5rem;
+    display: none;
+}
+
+
+ */
+
+
+
+/* @media(max-width:991px){
+   
+   
+    header{
+        padding: 2rem;
+    }
+}
+
+
+@media(max-width:768px){
+    #menu-bar{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #f7f7f7;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        display: none;
+    }
+    header .navbar.active{
+        display: block;
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: block;
+        border: .2rem solid rgba(0,0,0,.1);
+        border-left: .5rem solid var(--red);
+        background: #fff;
+    }
+} */
