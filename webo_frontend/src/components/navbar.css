@@ -46,6 +46,9 @@ nav ul li a{
     font-weight: 650;
     width: 250px;
 }
+.drop{
+    padding-top: 20px;
+}
 .sign-btn{
     text-decoration: none;
     color: #000;
@@ -449,7 +452,7 @@ nav ul li a{
     height: 0;
 }
 .save-money-left{
-    padding-top: 210px;
+    padding-top: 165px;
     width:479px;
     height: 300px;
 }
@@ -479,16 +482,15 @@ nav ul li a{
     letter-spacing: -0.02em;
     color: #505887;
     margin-top:28px;
-    margin-bottom: 28px;
+    margin-bottom: 45px;
 }
 .payment-info{
     position: relative;
-    margin-top: 20px;
 }
 .box-content-info{
     position: relative;
     z-index: 10;
-    padding: 20px;
+    padding: 40px 40px;
 }
 .payment-info-left{
     position: absolute;
@@ -503,18 +505,18 @@ nav ul li a{
     position: relative;
     z-index: 10;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.02em;
-    width: 480px;
-    margin-bottom: 20px;
+    width: 426px;
+    margin-bottom: 15px;
 }
 .author-name{
     color: #000000;
     position: relative;
     z-index: 10;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.02em;
 }
@@ -529,7 +531,7 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 40px;
+    left: 30px;
     top: -16px;
 }
 
@@ -625,6 +627,171 @@ nav ul li a{
     left: 0;
     top: 75%;
 }
+
+
+
+
+/* testimonials */
+.testimonials{
+    background-color: #FAFBFF;;
+    height: 833px;
+    width: 100vw;
+}
+.main-testimonials{
+    position: relative;
+    padding: 145px 200px;
+}
+.testimonials-heading{
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.testimonial-details{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    width:570px;
+    margin-bottom: 50px;
+}
+
+.testmonial-source{
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    width: 699px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;   
+}
+.testimonial-container{
+    padding: 85px 30px;   
+}
+.testimonial-description{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 355px;
+    margin-bottom: 35px;
+}
+.testimonial-name{
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.quation-testimonial{
+    position: absolute;
+    background: #000000;
+    border-radius: 50%;
+    color: #fff;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 30px;
+    top: -16px;
+}
+.tesimonial-image{
+    padding: 23px 20px;
+}
+
+
+
+
+/* Statics */
+.statics{
+    position: absolute;
+    width: 100vw;
+    height: 256px;
+    left: 0px;
+    background: #3734A9;
+    font-family: 'Manrope';
+    
+}
+/* .static-border{
+    border-left: 6px solid green;
+    margin-left: 200px;
+} */
+.static-wrap{
+    width: 100%;
+    display: flex;
+   
+}
+
+
+.statics-left{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    width:32%;
+    margin-right: 40px; 
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    border-right: 2px solid #3D3D3D;
+}
+.statics-left p{
+    width:140px;
+    margin-right:35px;
+}
+
+.static-right{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 256px;
+    align-items: center;
+    display: flex;
+}
+.static-number{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.static-active{
+    display: flex;
+}
+.static-active p{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.static-active i{
+    font-size: 25px;
+    color: #B1CA16;
+    margin-top: 2px;
+}
+
+.static-image{
+    width: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 0px;
+}
+
 
 
 

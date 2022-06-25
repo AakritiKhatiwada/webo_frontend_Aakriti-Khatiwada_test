@@ -17,8 +17,8 @@ const Navbar = () => {
             <nav>
                 <a href='#' className='logo'>ar shakir</a>
                 <ul>
-                    <li><a href="">Product <UilAngleDown/></a></li>
-                    <li><a href="">Template <UilAngleDown/></a></li>
+                    <li><a href="">Product <UilAngleDown classsName='drop'/></a></li>
+                    <li><a href="">Template <UilAngleDown classsName='drop'/></a></li>
                     <li><a href="">Blog</a></li>
                     <li> <a href="">Pricing</a></li>
                 </ul>

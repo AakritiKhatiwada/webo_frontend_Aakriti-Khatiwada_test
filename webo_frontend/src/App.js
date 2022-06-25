@@ -4,6 +4,9 @@ import Content from './components/content';
 import Portfolio from './components/portfolio';
 import Whychooseus from './components/whychooseus';
 import Features from './components/features';
+import Testimonials from './components/testimonials';
+import Statics from './components/statics';
+
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
       <Portfolio/>
       <Whychooseus/>
       <Features/>
+      <Testimonials/>
+      <Statics/>
     </div>
   );
 }
