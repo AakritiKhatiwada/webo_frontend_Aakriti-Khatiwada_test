@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.subFaq{
+    display: flex;
+    justify-content: space-between;
+}
+.moreQuestion{
+    font-weight: bold;
+    width: 20%;
+}
+.faqParent{
+    padding: 0px 40px;
+}
+.faqHeading{
+    font-size: 30px;
+}
+.answer{
+    position: relative;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.1s cubic-bezier(0,1,0,1);
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.answer.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.question{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    justify-content: space-between;
+}
+.plusIcon{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.questionParent{
+    width: 40rem;
+    padding: 0px 20px;
+    border: 2px solid #CFCFCF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+ 
+.email{
+    background-color: #FF7F5C;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 25px 0px;
+    margin-top: 80px;
+}
+ 
+.question:target .answer{
+    display: block;
+}
+.plusIcon svg{
+    height: 20px;
+    margin-top: 9px;
+}
+ 
+.message svg{
+    height: 40px;
+    margin-top: 30px;
+}
+ 
+.moreQuestion{
+    text-align: center;
+    width: 20rem;
+    height: 30rem;
+    padding: 20px 30px;
+    border: 2px solid #CFCFCF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+ 
+.questionHeading{
+    font-size: 20px;
+    margin: 30px 0px;
+}
+ 
+.questionSub{
+    font-size: 15px;
+    font-weight: 500;
+}

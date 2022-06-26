@@ -8,6 +8,8 @@ import Testimonials from './components/testimonials';
 import Statics from './components/statics';
 import Blog from './components/blog';
 import Discover from './components/discover';
+import Footer from './components/footer';
+import Faq from './components/faq';
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
       <Testimonials/>
       <Statics/>
       <Blog/>
+      <Faq/>
       <Discover/>
+      <Footer/>
     </div>
   );
 }

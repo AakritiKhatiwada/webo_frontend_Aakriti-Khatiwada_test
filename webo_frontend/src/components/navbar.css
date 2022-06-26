@@ -903,17 +903,15 @@ nav ul li a{
 
 /* discover */
 .discover{
-    position: absolute;
+    position: relative;
     width: 100vw;
-    height: 980px;
+    padding: 70px 130px;
     background: #FAFBFF;
     font-family: 'Manrope';
 }
 .main-discover{
     position: relative;
-    margin-top: 60px;
-    margin: 50px 130px;
-    width: 1200px;
+    width: 93%;
     height: 438px;
     background: #3734A9;
     border-radius: 20px;
@@ -937,11 +935,15 @@ nav ul li a{
     font-size: 56px;
     line-height: 61px;
     letter-spacing: -0.03em;
-    width: 763px;
-    margin-left: 20%;
+    width: 100%;
+    text-align: center;
+    padding: 0px 200px;
+    align-items: center;
+    /* margin-left: 20%; */
     margin-bottom: 45px;
 }
 .discover-content button{
+    position: relative;
     background: #FF7F5C;
     border-radius: 10px;
     width: 223px;
