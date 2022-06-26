@@ -23,7 +23,7 @@ nav{
 .logo{
     width: 300px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     font-family: 'Gilroy';
     color: #111;
@@ -42,19 +42,19 @@ nav ul li a{
     text-decoration: none;
     color: #111;
     font-family: 'Manrope';
-    font-size: 18px;
-    font-weight: 650;
+    font-size: 14px;
+    font-weight: 500;
     width: 250px;
 }
 .drop{
-    padding-top: 20px;
+    margin-left: 10px;
 }
 .sign-btn{
     text-decoration: none;
     color: #000;
     margin-right: 45px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     font-family: 'Manrope';
     
 }
@@ -64,9 +64,11 @@ nav ul li a{
     background-color: #4F46BA; 
     border: none;
     color: white;
-    padding: 20px 38px;
+    width: 137px;
+    height: 52px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .content{
@@ -74,30 +76,32 @@ nav ul li a{
     width: 646px;
 }
 .content h1{
-    font-size: 67px;
+    font-size: 60px;
     font-weight: 800;
     font-family: 'Manrope';
-    line-height: 93px;
+    line-height: 80px;
     letter-spacing: -0.01em;
     color: #000000;
     margin-bottom: 25px;
 }
 
 .content .content-info{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     font-family: 'Manrope';
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: -0.02em;
     color: #64607D;
     margin-bottom: 55px;
+    width: 510px;
 }
 .new-btn{
     align-items: center;
 
 }
 .btn-start{
-    padding: 25px 50px;
+    Width:162px;
+    Height:60px;
     border-radius: 50px;
     background-color: #4F46BA; 
     border: none;
@@ -109,7 +113,7 @@ nav ul li a{
 }
 
 .play-icon{
-    height: 65px;
+    height: 60px;
     margin-left: 60px;
     margin-right: 12px;  
 }
@@ -121,7 +125,7 @@ nav ul li a{
 .icon-info{
     margin-bottom: 0px;
     font-family: 'Manrope';
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     color: #3734A9;
 }
@@ -138,13 +142,15 @@ nav ul li a{
     width: 120px;
     justify-content: space-between;
     font-size: 17px;
+    font-weight: 500;
     
 }
 .circle-check-right{
     display: flex;
     width: 120px;
     justify-content: space-between;
-    font-size: 17px;  
+    font-size: 17px;
+    font-weight: 500;  
 }
 .circle-info{
     color: #757095;
@@ -154,7 +160,7 @@ nav ul li a{
 .hero-right-side{
     position: absolute;
     top: 10%;
-    left: 48%;
+    left: 52%;
     width: 200px;
 }
 .main-image{
@@ -168,7 +174,8 @@ nav ul li a{
     position: absolute;
     z-index: 10;
     right: 0;
-    top: 98%;
+    left: 95%;
+    top: 107%;
 }
 .design-left{
     position: absolute;
@@ -196,8 +203,8 @@ nav ul li a{
 
 .content-info p{
     font-family: 'Manrope';
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
     line-height: 30px;
     text-align: center;
     padding-top: 60px;
@@ -206,10 +213,11 @@ nav ul li a{
 .content-image{
     display: flex;
     align-items: flex-start;
+    width: 150px;
 }
 .content-image div{
     padding: 60px 95px;
-    width: 210px;
+    width: 200px;
     display: flex;
     align-items: flex-start;
 }
@@ -229,10 +237,10 @@ nav ul li a{
 /* portfololio section */
 .main-portfolio{
     position: relative;
-    height: 800px;
+    height: 810px;
     width: 100vw;
     background: #FAFBFF;
-    padding: 80px 200px; 
+    padding: 80px 130px; 
 }
 .portfolio-top{
     display: flex;
@@ -249,6 +257,7 @@ nav ul li a{
     line-height: 66px;
     letter-spacing: -0.03em;
     margin-bottom: 25px;
+    width: 464px;
 }
 .portfolio-top-left p{
     font-family: 'Manrope';
@@ -283,7 +292,7 @@ nav ul li a{
     position: relative;
     z-index: 10;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.02em;
     width: 365px;
@@ -294,7 +303,7 @@ nav ul li a{
     position: relative;
     z-index: 10;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.02em;
 }
@@ -315,7 +324,7 @@ nav ul li a{
 .portfolio-container{
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 48px;
 }
 .portfolio-bottom{
     background-color: #FFFFFF;
@@ -372,7 +381,7 @@ nav ul li a{
 
 /* why choose us section */
 .whychooseus{
-    height: 1300px;
+    height: 1350px;
     width: 100vw;
     background: #FAFBFF;
 
@@ -381,7 +390,7 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding: 50px 200px; 
+    padding: 80px 100px; 
     height: 550px;
 }
 .choose-image{
@@ -421,6 +430,7 @@ nav ul li a{
     line-height: 30px;
     letter-spacing: -0.02em;
     color: #505887;
+    width: 446px;
     margin-top:28px;
     margin-bottom: 20px;
     border-bottom: 2px solid #C4C4C4;
@@ -438,7 +448,7 @@ nav ul li a{
     font-family: 'Manrope';
     font-weight: 500;
     font-size: 19px;
-    line-height: 30px;
+    line-height: 38px;
     letter-spacing: -0.02em;
     color: #505887;
 }
@@ -448,13 +458,13 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding: 0px 200px;
+    padding: 0px 130px;
     height: 0;
 }
 .save-money-left{
     padding-top: 165px;
     width:479px;
-    height: 300px;
+    height: 310px;
 }
 .save-money-top{
     font-family: 'Manrope';
@@ -544,7 +554,7 @@ nav ul li a{
 }
 .main-feature{
     position: relative;
-    padding: 145px 200px;
+    padding: 145px 130px;
 }
 .feature-top{
     width: 830px;
@@ -634,12 +644,12 @@ nav ul li a{
 /* testimonials */
 .testimonials{
     background-color: #FAFBFF;;
-    height: 833px;
+    height: 875px;
     width: 100vw;
 }
 .main-testimonials{
     position: relative;
-    padding: 145px 200px;
+    padding: 145px 130px;
 }
 .testimonials-heading{
     font-family: 'Manrope';
@@ -714,9 +724,9 @@ nav ul li a{
 
 /* Statics */
 .statics{
-    position: absolute;
+    position: relative;
     width: 100vw;
-    height: 256px;
+    /* height: 256px; */
     left: 0px;
     background: #3734A9;
     font-family: 'Manrope';
@@ -791,6 +801,103 @@ nav ul li a{
     flex-direction: row-reverse;
     padding: 50px 0px;
 }
+
+
+
+
+/* blogs */
+.recent-blog{
+    position: relative;
+    width: 100vw;
+    height: 1050px;
+    background: #FAFBFF;
+    font-family: 'Manrope';
+}
+.blog{
+    position: relative;
+    padding: 120px 130px;
+}
+.blog-name{
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.first-blog{
+    margin-top: 45px;
+    width: 1167px;
+    height: 285px;
+    background: #FFFFFF;
+    margin-bottom: 24px;
+}
+.blog-inside{
+    display: flex;
+    justify-content: space-between;
+}
+.left-blog{
+    padding: 40px 25px;
+}
+.blog-pratice{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.blog-content{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 524px;
+    margin-bottom: 60px;
+}
+.next-blog{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1B1C31;
+}
+
+.blog-hero{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+}
+
+.header-blog{
+    width: 374px;
+    height: 436px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog-seperator{
+    padding: 30px 30px;
+}
+.blog-header{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.blog-center{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 310px;
+}
+
 
 
 

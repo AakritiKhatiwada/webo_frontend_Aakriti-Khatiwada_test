@@ -6,6 +6,8 @@ import Whychooseus from './components/whychooseus';
 import Features from './components/features';
 import Testimonials from './components/testimonials';
 import Statics from './components/statics';
+import Blog from './components/blog';
+import Discover from './components/discover';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Features/>
       <Testimonials/>
       <Statics/>
+      <Blog/>
+      <Discover/>
     </div>
   );
 }
