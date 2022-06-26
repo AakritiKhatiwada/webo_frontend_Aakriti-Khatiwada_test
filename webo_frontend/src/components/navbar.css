@@ -809,7 +809,7 @@ nav ul li a{
 .recent-blog{
     position: relative;
     width: 100vw;
-    height: 1050px;
+    height: 980px;
     background: #FAFBFF;
     font-family: 'Manrope';
 }
@@ -901,6 +901,93 @@ nav ul li a{
 
 
 
+/* discover */
+.discover{
+    position: absolute;
+    width: 100vw;
+    height: 980px;
+    background: #FAFBFF;
+    font-family: 'Manrope';
+}
+.main-discover{
+    position: relative;
+    margin-top: 60px;
+    margin: 50px 130px;
+    width: 1200px;
+    height: 438px;
+    background: #3734A9;
+    border-radius: 20px;
+}
+.discover-image{
+    position: absolute;
+    
+}
+.discover-content{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 25%;
+    font-family: 'Manrope';
+    color: #FFFFFF;
+}
+.discover-content p{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    width: 763px;
+    margin-left: 20%;
+    margin-bottom: 45px;
+}
+.discover-content button{
+    background: #FF7F5C;
+    border-radius: 10px;
+    width: 223px;
+    height: 67px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.discover-image{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 82%;
+    top: 12%;
+}
+.discover-image-2{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 18%;
+    top: 13%;
+}
+.discover-image-3{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 11%;
+    top: 66%;
+}
+.discover-image-4{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 23%;
+    top: 52%;
+}
+.discover-image-5{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 80%;
+    top: 54%;
+}
 
 
 
