@@ -1,6 +1,6 @@
 import React from 'react'
 import testimonial_img from "./Images/testimonial.png";
-import './navbar.css'
+import './CSS/testimonial.css'
 
 
 const Testimonials = () => {

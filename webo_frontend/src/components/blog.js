@@ -1,5 +1,5 @@
 import React from 'react'
-import './navbar.css'
+import './CSS/blog.css'
 import blog from "./Images/blog-1.png";
 import blog2 from "./Images/blog-2.png";
 import blog3 from "./Images/blog-3.png";

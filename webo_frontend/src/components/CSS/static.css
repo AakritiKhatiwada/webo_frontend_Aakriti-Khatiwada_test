@@ -1,0 +1,78 @@
+.statics{
+    position: relative;
+    width: 100vw;
+    /* height: 256px; */
+    left: 0px;
+    background: #3734A9;
+    font-family: 'Manrope';
+    
+}
+/* .static-border{
+    border-left: 6px solid green;
+    margin-left: 200px;
+} */
+.static-wrap{
+    width: 100%;
+    display: flex;
+   
+}
+
+
+.statics-left{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    width:32%;
+    margin-right: 40px; 
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    border-right: 2px solid #3D3D3D;
+}
+.statics-left p{
+    width:140px;
+    margin-right:35px;
+}
+
+.static-right{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 256px;
+    align-items: center;
+    display: flex;
+}
+.static-number{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.static-active{
+    display: flex;
+}
+.static-active p{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.static-active i{
+    font-size: 25px;
+    color: #B1CA16;
+    margin-top: 2px;
+}
+
+.static-image{
+    width: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 0px;
+}

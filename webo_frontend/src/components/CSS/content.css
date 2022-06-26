@@ -1,0 +1,39 @@
+.second-content{
+    position: relative;
+    height: 239px;
+    width: 100vw;
+    background: #F5F6F8;;
+    z-index: 100;
+}
+
+
+.content-info p{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.content-image{
+    display: flex;
+    align-items: flex-start;
+    width: 150px;
+}
+.content-image div{
+    padding: 60px 95px;
+    width: 200px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7{
+    flex: 0.5;
+}

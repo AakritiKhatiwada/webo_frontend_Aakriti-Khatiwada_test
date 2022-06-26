@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #62BADA; 
+    background-image: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+    padding: 40px 9%;
+    
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    color: #111;
+    text-transform: uppercase;
+}
+nav ul{
+    width: 625px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1px 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #111;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    width: 250px;
+}
+.drop{
+    margin-left: 10px;
+}
+.sign-btn{
+    text-decoration: none;
+    color: #000;
+    margin-right: 45px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Manrope';
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4F46BA; 
+    border: none;
+    color: white;
+    width: 137px;
+    height: 52px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content{
+    margin-top: 13%;
+    width: 646px;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Manrope';
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.content .content-info{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Manrope';
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #64607D;
+    margin-bottom: 55px;
+    width: 510px;
+}
+.new-btn{
+    align-items: center;
+
+}
+.btn-start{
+    Width:162px;
+    Height:60px;
+    border-radius: 50px;
+    background-color: #4F46BA; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;  
+}
+
+.play-icon{
+    height: 60px;
+    margin-left: 60px;
+    margin-right: 12px;  
+}
+.icon-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-info{
+    margin-bottom: 0px;
+    font-family: 'Manrope';
+    font-size: 17px;
+    font-weight: 500;
+    color: #3734A9;
+}
+.hero-botton-content{
+    color: #4F46BA;
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.circle-check-left{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.circle-check-right{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 500;  
+}
+.circle-info{
+    color: #757095;
+}
+
+
+.hero-right-side{
+    position: absolute;
+    top: 10%;
+    left: 52%;
+    width: 200px;
+}
+.main-image{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.design-corner{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 95%;
+    top: 107%;
+}
+.design-left{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 92%;
+}
+.design-right{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 25%;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .hero ul li{
+        display: none;
+    }   
+    .hero-btn{
+        display: flex;
+        justify-content: center;
+    } 
+    .sign-btn{
+        margin-right: 10px;
+    }
+    .logo{
+        width:500px
+    }
+}

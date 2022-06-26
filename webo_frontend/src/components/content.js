@@ -1,5 +1,5 @@
 import React from 'react'
-import './navbar.css' 
+import './CSS/content.css' 
 import pic from "./Images/Group.png";
 import pic1 from "./Images/Group1.png";
 import pic2 from "./Images/Group2.png";

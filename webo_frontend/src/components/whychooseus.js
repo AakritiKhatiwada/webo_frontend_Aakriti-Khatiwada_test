@@ -2,7 +2,7 @@ import React from 'react'
 import information from "./Images/info.png";
 import transaction from "./Images/transaction.png";
 import choose from "./Images/choose.png";
-import './navbar.css'
+import './CSS/whychooseus.css'
 
 const Whychooseus = () => {
   return (

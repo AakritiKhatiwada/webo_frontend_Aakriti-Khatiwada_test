@@ -17,14 +17,29 @@ const Faq = () => {
         },
         {
             id: 2,
-            question: "The expense windows adapted sir. Wrong Wide drawn",
+            question: "Six curiosity day assurance bed necessary?",
+            answer: "Offending belonging promotion an be oh consulted ourselves it. Blessing welcomed ladyship shw met hurmoured sir breeding her."
+        },
+        {
+            id: 3,
+            question: "Produce say the ten moments parties?",
+            answer: "Offending belonging promotion an be oh consulted ourselves it. Blessing welcomed ladyship shw met hurmoured sir breeding her."
+        },
+        {
+            id: 4,
+            question: "Simple innate summer fat appear basket his desire joy?",
+            answer: "Offending belonging promotion an be oh consulted ourselves it. Blessing welcomed ladyship shw met hurmoured sir breeding her."
+        },
+        {
+            id: 5,
+            question: "Outward clothes promise at gravity do excited?",
             answer: "Offending belonging promotion an be oh consulted ourselves it. Blessing welcomed ladyship shw met hurmoured sir breeding her."
         }
     ]
     return (
         <section className="faqParent">
             <div className="faqHeading">
-                <h1>Frequently <br/> asked questions</h1>
+                <p>Frequently <br/> asked questions</p>
             </div>
             <div className="subFaq">
                 <div>
@@ -32,7 +47,7 @@ const Faq = () => {
                         FAQ.map((element, index) => (
                             <div className="questionParent" key={element.id} onClick={()=> {toggle(index)}}>
                                 <div className="question">
-                                    <div>
+                                    <div className='question-faq'>
                                         <p>{element.question}</p>
                                     </div>
                                     <div className="plusIcon">

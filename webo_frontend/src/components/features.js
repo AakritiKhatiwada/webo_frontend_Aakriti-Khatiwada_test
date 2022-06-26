@@ -1,5 +1,5 @@
 import React from 'react'
-import './navbar.css'
+import './CSS/features.css'
 import wallet from "./Images/wallets.png";
 import center_wallet from "./Images/wallet1.png";
 import feature from "./Images/feature.png";

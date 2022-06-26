@@ -1,6 +1,6 @@
 import React from 'react'
 import { UilAngleDown } from '@iconscout/react-unicons'
-import './navbar.css' 
+import './CSS/navbar.css' 
 import pic from "./Images/hero_image.png";
 import fill from "./Images/Fill 1.png";
 import left from "./Images/left-design.png";

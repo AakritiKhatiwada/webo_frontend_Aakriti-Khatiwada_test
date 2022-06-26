@@ -4,28 +4,41 @@ html {
 }
 .subFaq{
     display: flex;
-    justify-content: space-between;
+    margin-top: 60px;
 }
-.moreQuestion{
+/* .moreQuestion{
     font-weight: bold;
     width: 20%;
-}
+} */
 .faqParent{
-    padding: 0px 40px;
+    padding: 100px 130px;
+    background: #FAFBFF;
+    /* margin-right: 90px; */
+    /* width: 100vw; */
 }
 .faqHeading{
-    font-size: 30px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 76px;
+    color: #000000;
+    width: 650px;
 }
 .answer{
     position: relative;
     max-height: 0;
     overflow: hidden;
     transition: all 0.1s cubic-bezier(0,1,0,1);
-    font-weight: 600;
     margin-bottom: 10px;
     text-align: justify;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 15px;
 }
 .answer.show{
+    width: 567px;
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
@@ -35,14 +48,24 @@ html {
     align-items: center;
     font-weight: 800;
     justify-content: space-between;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+    padding-top: 10px;   
+}
+.question-faq{
+    width:598px;
 }
 .plusIcon{
     font-size: 20px;
     font-weight: bolder;
 }
 .questionParent{
-    width: 40rem;
-    padding: 0px 20px;
+    background: #FFFFFF;
+    width: 715px;
+    padding: 5px 20px;
     border: 2px solid #CFCFCF;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -52,8 +75,10 @@ html {
     background-color: #FF7F5C;
     border: none;
     color: white;
-    width: 100%;
-    padding: 25px 0px;
+    font-size: 16px;
+    font-weight: 600px;
+    width: 337px;
+    height: 76px;
     margin-top: 80px;
 }
  
@@ -66,26 +91,36 @@ html {
 }
  
 .message svg{
-    height: 40px;
+    height: 63px;
+    width: 67px;
     margin-top: 30px;
 }
  
 .moreQuestion{
     text-align: center;
-    width: 20rem;
-    height: 30rem;
+    width: 401px;
+    height: 485px;
     padding: 20px 30px;
     border: 2px solid #CFCFCF;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-left: 55px;
+    background: #FFFFFF;
 }
  
 .questionHeading{
-    font-size: 20px;
     margin: 30px 0px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
 }
  
 .questionSub{
-    font-size: 15px;
-    font-weight: 500;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
 }

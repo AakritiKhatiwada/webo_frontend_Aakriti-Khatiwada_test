@@ -1,0 +1,94 @@
+.recent-blog{
+    position: relative;
+    width: 100vw;
+    height: 980px;
+    background: #FAFBFF;
+    font-family: 'Manrope';
+}
+.blog{
+    position: relative;
+    padding: 120px 130px;
+}
+.blog-name{
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.first-blog{
+    margin-top: 45px;
+    width: 1167px;
+    height: 285px;
+    background: #FFFFFF;
+    margin-bottom: 24px;
+}
+.blog-inside{
+    display: flex;
+    justify-content: space-between;
+}
+.left-blog{
+    padding: 40px 25px;
+}
+.blog-pratice{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.blog-content{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 524px;
+    margin-bottom: 60px;
+}
+.next-blog{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1B1C31;
+}
+
+.blog-hero{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+}
+
+.header-blog{
+    width: 374px;
+    height: 436px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog-seperator{
+    padding: 30px 30px;
+}
+.blog-header{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.blog-seperator-image img{
+    width: 374px;
+}
+.blog-center{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 310px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './navbar.css'
+import './CSS/discover.css'
 import discover1 from "./Images/discover1.png";
 import discover2 from "./Images/Discover2.png";
 import discover3 from "./Images/discover3.png";

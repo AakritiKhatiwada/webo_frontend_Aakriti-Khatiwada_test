@@ -1,0 +1,76 @@
+.testimonials{
+    background-color: #FAFBFF;;
+    height: 875px;
+    width: 100vw;
+}
+.main-testimonials{
+    position: relative;
+    padding: 145px 130px;
+}
+.testimonials-heading{
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.testimonial-details{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    width:570px;
+    margin-bottom: 50px;
+}
+
+.testmonial-source{
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    width: 699px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;   
+}
+.testimonial-container{
+    padding: 85px 30px;   
+}
+.testimonial-description{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 355px;
+    margin-bottom: 35px;
+}
+.testimonial-name{
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.quation-testimonial{
+    position: absolute;
+    background: #000000;
+    border-radius: 50%;
+    color: #fff;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 30px;
+    top: -16px;
+}
+.tesimonial-image{
+    padding: 23px 20px;
+}

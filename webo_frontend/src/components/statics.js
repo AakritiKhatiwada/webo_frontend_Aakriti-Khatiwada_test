@@ -1,6 +1,6 @@
 import React from 'react'
 import active from "./Images/Active.png";
-import './navbar.css'
+import './CSS/static.css'
 
 const Statics = () => {
   return (
