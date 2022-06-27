@@ -8,11 +8,11 @@ const Whychooseus = () => {
   return (
     <div className='whychooseus'>
         <div className='chooseus'>
-            <div>
+            <div className='choose-img'>
                 <img  classsName='main-image' src={information} /> 
             </div>
             <div className='choose-image'>
-                <img  classsName='corner-img' src={choose} />
+                <img classsName='corner-img' src={choose} />
             </div>
 
             <div className='information-section'>
