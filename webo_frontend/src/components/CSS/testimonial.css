@@ -1,6 +1,6 @@
 .testimonials{
     background-color: #FAFBFF;;
-    height: 875px;
+    height: 100%;
     width: 100vw;
 }
 .main-testimonials{
@@ -12,7 +12,6 @@
     font-weight: 800;
     font-size: 71px;
     line-height: 66px;
-    letter-spacing: -0.03em;
     color: #000000;
     margin-bottom: 40px;
 }
@@ -21,15 +20,16 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 29px;
-    letter-spacing: -0.02em;
     width:570px;
     margin-bottom: 50px;
 }
-
+.testimonial-box{
+    display: flex;
+    gap: 40px
+}
 .testmonial-source{
     display: flex;
     box-sizing: border-box;
-    position: absolute;
     width: 699px;
     height: 400px;
     background: #FFFFFF;
@@ -45,7 +45,6 @@
     font-weight: 600;
     font-size: 25px;
     line-height: 36px;
-    letter-spacing: -0.02em;
     color: #000000;
     width: 355px;
     margin-bottom: 35px;
@@ -73,4 +72,85 @@
 }
 .tesimonial-image{
     padding: 23px 20px;
+}
+
+
+@media screen and (max-width: 1008px) {
+    .testimonial-box{
+        display: flex;
+        flex-direction: column;
+        gap: 40px
+    }
+    .quation-testimonial{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    .testmonial-source{
+        width: 600px;
+        height: 260px;
+    }
+    .testimonial-description{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 31px;
+    }
+    .tesimonial-image img{
+        height: 220px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .testmonial-source{
+        width: 450px;
+        height: 260px;
+    }
+    .testimonial-description{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 31px;
+    }
+    .tesimonial-image {
+        display: none;
+    }
+    .testimonial-container{
+        padding: 50px 30px;   
+    }
+    .testimonials-heading{
+        font-size: 60px;
+    }
+    .testimonial-details{
+        width:530px;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .testmonial-source{
+        width: 400px;
+        height: 240px;
+    }
+    .testimonial-description{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 31px;
+    }
+    .testimonial-container{
+        padding: 50px 30px;   
+    }
+    .main-testimonials{
+        padding: 145px 70px;
+    }
+    .testimonials-heading{
+        font-size: 55px;
+    }
+    .testimonial-details{
+        width:395px;
+    }
+
+    
+    
 }

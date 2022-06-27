@@ -6,16 +6,21 @@
 .main-feature{
     position: relative;
     padding: 145px 130px;
+    width: 100%;
 }
 .feature-top{
-    width: 830px;
+    display: flex;
+    width: 100%;
     font-family: 'Manrope';
     font-weight: 800;
     height:66px;
     font-size: 71px;
     line-height: 66px;
-    letter-spacing: -0.03em;
     color: #000000;
+    margin-bottom: 40px;
+}
+.feature-top p{
+    width: 900px;
 }
 .feature-info{
     font-family: 'Manrope';
@@ -23,9 +28,12 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 29px;
-    letter-spacing: -0.02em;
     color: #000000;
-    margin-top: 40px;
+    
+    width: 100%;
+    display: flex;
+}
+.feature-info p{
     width: 550px;
 }
 
@@ -33,6 +41,8 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px
 }
 .feature-seperate{
     background-color: #FFFFFF;
@@ -87,4 +97,104 @@
     z-index: 10;
     left: 0;
     top: 75%;
+}
+
+
+
+
+@media screen and (max-width: 1041px) {
+    .feature-section{
+        justify-content: center;
+    }
+    .main-feature{
+        padding: 145px 100px;
+    }
+    .feature-top{
+        font-size: 65px;
+    }
+    .feature-top p{
+        width: 950px;
+    }
+}
+
+
+@media screen and (max-width: 1006px) {
+    
+    .main-feature{
+        padding: 145px 95px;
+    }
+    .feature-top{
+        font-size: 61px;
+    }
+    .feature-top p{
+        width: 960px;
+    }
+}
+
+
+@media screen and (max-width: 946px) {
+    
+    .main-feature{
+        padding: 145px 95px;
+    }
+    .feature-top{
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .feature-top p{
+        width: 960px;
+    }
+}
+
+
+@media screen and (max-width: 921px) {
+    
+    .main-feature{
+        padding: 145px 95px;
+    }
+    .feature-top{
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .feature-top p{
+        width: 960px;
+    }
+    .feature-info{
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 799px) {
+    
+    .main-feature{
+        padding: 145px 95px;
+    }
+    .feature-top{
+        font-size: 50px;
+        font-weight: 700;
+        height: 100%;
+    }
+    .feature-top p{
+        width: 960px;
+        height: 100px;
+    } 
+}
+
+@media screen and (max-width: 640px) {
+    .feature-top{
+        font-size: 35px;
+        font-weight: 700;
+        height: 100%;
+        line-height: 45px;
+    }
+    .feature-top p{
+        width: 20%px;
+        height: 75px;
+    }
+    .feature-corner-image{
+        display: none;
+    } 
 }

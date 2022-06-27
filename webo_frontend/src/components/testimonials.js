@@ -30,6 +30,24 @@ const Testimonials = () => {
                         <i className="fas fa-quote-left"></i>
                     </div>
                 </div>
+
+
+                <div className='testmonial-source'>
+                    <div className='testimonial-container'>
+                        <div className='testimonial-description'>
+                            <p>Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows. Blessing welcomed ladyship.</p>
+                        </div>
+                        <div className='testimonial-name'>
+                            <p>- Mike Taylor, Web Designer</p>
+                        </div>
+                    </div>
+                    <div className='tesimonial-image'>
+                        <img  classsName='wall-image' src={testimonial_img} />
+                    </div>
+                    <div className='quation-testimonial'>
+                        <i className="fas fa-quote-left"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
