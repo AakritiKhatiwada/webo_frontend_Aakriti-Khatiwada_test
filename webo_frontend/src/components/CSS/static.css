@@ -1,23 +1,18 @@
 .statics{
     position: relative;
     width: 100vw;
-    /* height: 256px; */
     left: 0px;
     background: #3734A9;
     font-family: 'Manrope';
-    
+ 
 }
-/* .static-border{
-    border-left: 6px solid green;
-    margin-left: 200px;
-} */
+
 .static-wrap{
     width: 100%;
     display: flex;
-   
 }
-
-
+ 
+ 
 .statics-left{
     font-family: 'Manrope';
     font-weight: 400;
@@ -36,7 +31,7 @@
     width:140px;
     margin-right:35px;
 }
-
+ 
 .static-right{
     display: flex;
     justify-content: space-between;
@@ -69,10 +64,69 @@
     color: #B1CA16;
     margin-top: 2px;
 }
-
+ 
 .static-image{
     width: 15%;
     display: flex;
     flex-direction: row-reverse;
     padding: 50px 0px;
+}
+ 
+@media screen and (max-width: 640px) {
+    .static-wrap{
+        display: block;
+    }    
+    .statics-left{
+        margin-right: 0px;
+        padding-top: 15px;
+        flex-direction: row;
+        width: 100%;
+    }
+    .statics-left p{
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .static-image{
+        display: none;
+    }
+    .static-number{
+        font-size: 40px;
+    }
+    .static-active p{
+        font-size: 15px;
+    }
+    .static-right{
+        height: 100%;
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 1008px) {
+    .static-wrap{
+        display: block;
+    }    
+    .statics-left{
+        margin-right: 0px;
+        padding-top: 15px;
+        flex-direction: row;
+        width: 100%;
+    }
+    .statics-left p{
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .static-image{
+        display: none;
+    }
+    .static-number{
+        font-size: 40px;
+    }
+    .static-active p{
+        font-size: 15px;
+    }
+    .static-right{
+        height: 100%;
+        padding: 30px;
+    }
 }

@@ -139,3 +139,15 @@
     }
  
 }
+@media screen and (max-width: 640px ) {
+    .social{
+        margin-bottom: 20px;
+    }
+    .company{
+        margin-bottom: 20px;
+    }
+    .newsletter{
+        margin-top: 20px;
+    }
+
+}
