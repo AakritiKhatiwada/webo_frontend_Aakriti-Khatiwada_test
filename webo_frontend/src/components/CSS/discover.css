@@ -7,7 +7,7 @@
 }
 .main-discover{
     position: relative;
-    width: 93%;
+    width: 100%;
     height: 438px;
     background: #3734A9;
     border-radius: 20px;
@@ -30,7 +30,6 @@
     font-weight: 800;
     font-size: 56px;
     line-height: 61px;
-    letter-spacing: -0.03em;
     width: 100%;
     text-align: center;
     padding: 0px 200px;
@@ -88,3 +87,81 @@
 }
 
 
+@media screen and (max-width: 500px) {
+    .discover{
+        padding: 70px 0px;
+    }
+    .main-discover{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .discover-content{
+        width: 500px;
+        height: 0%;
+        top: 20%;
+    }
+    .discover-content p{
+        font-weight: 800;
+        font-size: 40px;
+        margin-bottom: 45px;
+        line-height: 50px;
+        float: left;
+        padding: 0px 50px;
+    }
+
+    .discover-image,
+    .discover-image-2,
+    .discover-image-3,
+    .discover-image-4,
+    .discover-image-5{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1198px) {   
+    .discover{
+        padding: 70px 0px;
+    }
+    .main-discover{
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+@media screen and (max-width: 1128px) {   
+    .main-discover{
+        width: 100%;
+    }
+    .discover-content{
+        top: 20%;
+    }
+}
+
+
+/* @media screen and (max-width: 868px) {
+    .discover-content{
+        width: 600px;
+        top: 30%;
+        left: 20%;
+    }
+    .discover-content p{
+        font-weight: 800;
+        font-size: 40px;
+        margin-bottom: 45px;
+        line-height: 50px;
+        float: left;
+        padding: 0px 50px;
+    }
+} */
+
+
+@media screen and (max-width: 1008px) {
+    .discover{
+        padding: 70px 0px;
+    }
+
+    .main-discover{
+        width: 100%;
+        border-radius: 0px;
+    }
+}

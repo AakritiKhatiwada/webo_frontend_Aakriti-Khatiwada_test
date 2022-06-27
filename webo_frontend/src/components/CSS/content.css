@@ -37,3 +37,16 @@
 .box-7{
     flex: 0.5;
 }
+
+
+
+@media screen and (max-width: 640px) {
+    .second-content{
+        height: 260px;
+    }
+    .content-info{
+        padding: 0px 20px;
+    }
+    
+    
+}

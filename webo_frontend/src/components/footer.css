@@ -14,7 +14,7 @@
 }
 .footer{
     display: flex;
-    width: 94%;
+    width: 99%;
     justify-content: space-between;
     margin-bottom: 40px;
 }

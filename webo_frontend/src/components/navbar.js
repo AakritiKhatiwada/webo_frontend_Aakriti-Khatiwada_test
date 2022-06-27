@@ -1,24 +1,38 @@
-import React from 'react'
-import { UilAngleDown } from '@iconscout/react-unicons'
+import React, {useState} from 'react'
 import './CSS/navbar.css' 
 import pic from "./Images/hero_image.png";
 import fill from "./Images/Fill 1.png";
 import left from "./Images/left-design.png";
 import right from "./Images/Right-design.png";
-
-
-
-
+ 
 const Navbar = () => {
+    const[showNav, setShowNav] = useState(false);
   return (
     <>
-    
         <div className='hero'>
+            {/* small navbar */}
+            {
+                showNav && <div className='smallNav'>
+                            <div>
+                                <ul>
+                                    <li><a href="">Product<i className="fas fa-angle-down drop"></i></a></li>
+                                    <li><a href="">Template <i className="fas fa-angle-down drop"></i></a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li> <a href="">Pricing</a></li>
+                                </ul>
+                            </div>
+                            <div className='zero-btn'>
+                                <a href='#' className='sign-btn'>Sign In</a>
+                                <button className='btn'>Start Free</button>
+                            </div>
+                        </div>
+            }
+ 
             <nav>
                 <a href='#' className='logo'>ar shakir</a>
                 <ul>
-                    <li><a href="">Product<i class="fas fa-angle-down drop"></i></a></li>
-                    <li><a href="">Template <i class="fas fa-angle-down drop"></i></a></li>
+                    <li><a href="">Product<i className="fas fa-angle-down drop"></i></a></li>
+                    <li><a href="">Template <i className="fas fa-angle-down drop"></i></a></li>
                     <li><a href="">Blog</a></li>
                     <li> <a href="">Pricing</a></li>
                 </ul>
@@ -26,9 +40,12 @@ const Navbar = () => {
                     <a href='#' className='sign-btn'>Sign In</a>
                     <button className='btn'>Start Free</button>
                 </div>
+                <div className='menu' onClick={() => setShowNav(!showNav)}>
+                    <i class="fas fa-bars"></i>
+                </div>
             </nav>
-
-
+ 
+ 
             <div className='content'>
                 <h1>Managing freelance payments has never been easier</h1>
                 <p className='content-info'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.</p>
@@ -54,37 +71,37 @@ const Navbar = () => {
                             <p className='circle-info'>Free Register</p>
                         </div>
                     </div>
-                    
+ 
                     <div className='circle-check-right'>
                         <div>
-                            <i class="fas fa-check-circle "></i>
+                            <i className="fas fa-check-circle "></i>
                         </div>
                         <div>
                             <p className='circle-info'>Great Service</p>
                         </div>
                     </div> 
                 </div>
-
-
+ 
+ 
             </div>
             <div className='hero-right-side'>
-                <img  classsName='main-image' src={pic} /> 
+                <img src={pic} /> 
             </div>
-
+ 
             <div className='design-corner'>
-                <img  classsName='corner-image' src={fill} />
+                <img  className='corner-image' src={fill} />
             </div>
-
+ 
             <div className='design-left'>
-                <img  classsName='left-image' src={left} />
+                <img  className='left-image' src={left} />
             </div>
-
+ 
             <div className='design-right'>
-                <img  classsName='right-image' src={right} />
+                <img  className='right-image' src={right} />
             </div>
         </div>
     </>
   )
 }
-
+ 
 export default Navbar

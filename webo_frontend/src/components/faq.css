@@ -6,15 +6,9 @@ html {
     display: flex;
     margin-top: 60px;
 }
-/* .moreQuestion{
-    font-weight: bold;
-    width: 20%;
-} */
 .faqParent{
     padding: 100px 130px;
     background: #FAFBFF;
-    /* margin-right: 90px; */
-    /* width: 100vw; */
 }
 .faqHeading{
     font-family: 'Manrope';
@@ -22,23 +16,25 @@ html {
     font-size: 71px;
     line-height: 76px;
     color: #000000;
-    width: 650px;
+    width: 580px;
 }
 .answer{
+    display: flex;
     position: relative;
     max-height: 0;
     overflow: hidden;
     transition: all 0.1s cubic-bezier(0,1,0,1);
     margin-bottom: 10px;
-    text-align: justify;
+    /* text-align: justify; */
     font-family: 'Manrope';
     font-weight: 500;
     font-size: 16px;
     line-height: 31px;
     margin-top: 15px;
+    width: 100%;
 }
 .answer.show{
-    width: 567px;
+    /* width: 567px; */
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
@@ -64,7 +60,7 @@ html {
 }
 .questionParent{
     background: #FFFFFF;
-    width: 715px;
+    width: 100%;
     padding: 5px 20px;
     border: 2px solid #CFCFCF;
     border-radius: 10px;
@@ -77,7 +73,7 @@ html {
     color: white;
     font-size: 16px;
     font-weight: 600px;
-    width: 337px;
+    width: 100%;
     height: 76px;
     margin-top: 80px;
 }
@@ -99,16 +95,19 @@ html {
 .moreQuestion{
     text-align: center;
     width: 401px;
-    height: 485px;
+    /* height: 485px; */
     padding: 20px 30px;
     border: 2px solid #CFCFCF;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-left: 55px;
     background: #FFFFFF;
+    display: flex;
+    
 }
  
 .questionHeading{
+    /* display: flex; */
     margin: 30px 0px;
     font-family: 'Manrope';
     font-weight: 800;
@@ -118,9 +117,48 @@ html {
 }
  
 .questionSub{
+    /* display: flex; */
     font-family: 'Manrope';
     font-weight: 600;
     font-size: 16px;
     line-height: 31px;
     text-align: center;
 }
+
+.question-wrap{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+@media screen and (max-width: 1008px) {
+    .subFaq{
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+    .moreQuestion{
+        display: inline-block;
+        width: 100%;
+        /* height: 400px; */
+        padding: 20px 30px;
+        border: 2px solid #CFCFCF;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 4px;
+        background: #FFFFFF;
+    }
+    .message svg{
+        margin-top: 20px;
+    }
+    .questionHeading{
+        margin: 25px 0px;
+    }
+    .email{
+        margin-top: 50px;
+    }
+}
+
+
+
+    

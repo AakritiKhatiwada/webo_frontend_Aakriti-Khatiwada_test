@@ -39,7 +39,7 @@ const Faq = () => {
     return (
         <section className="faqParent">
             <div className="faqHeading">
-                <p>Frequently <br/> asked questions</p>
+                <p>Frequently  asked questions</p>
             </div>
             <div className="subFaq">
                 <div>
@@ -62,19 +62,21 @@ const Faq = () => {
                     }
                 </div>
                 <div className="moreQuestion">
-                    <div>
-                        <div className='message'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z"/>
-                            </svg>
+                    <div className='Question-wrap'>
+                        <div>
+                            <div className='message'>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div className='questionHeading'>Do you have more questions?</div>
+                                <div className='questionSub'>End-to-end payments and financial management in a single solution. Meet the right platorm to help realize.</div>
+                            </div>
                         </div>
                         <div>
-                            <div className='questionHeading'>Do you have more questions?</div>
-                            <div className='questionSub'>End-to-end payments and financial management in a single solution. Meet the right platorm to help realize.</div>
+                            <button className="email">Shoot a Direct Mail</button>
                         </div>
-                    </div>
-                    <div>
-                        <button className="email">Shoot a Direct Mail</button>
                     </div>
                 </div>
             </div>

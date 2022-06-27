@@ -12,7 +12,7 @@
     background-color: #62BADA; 
     background-image: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
     padding: 40px 9%;
-    
+ 
 }
 nav{
     padding: 10px 0;
@@ -36,7 +36,7 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 1px 15px;
-    
+ 
 }
 nav ul li a{
     text-decoration: none;
@@ -54,6 +54,7 @@ nav ul li a{
     color: #000;
     margin-right: 45px;
     font-size: 14px;
+    width: 50%;
     font-weight: 500;
     font-family: 'Manrope';
 }
@@ -63,13 +64,13 @@ nav ul li a{
     background-color: #4F46BA; 
     border: none;
     color: white;
-    width: 137px;
+    width: 60%;
     height: 52px;
     text-align: center;
     font-size: 14px;
     font-weight: 500;
 }
-
+ 
 .content{
     margin-top: 13%;
     width: 646px;
@@ -83,7 +84,7 @@ nav ul li a{
     color: #000000;
     margin-bottom: 25px;
 }
-
+ 
 .content .content-info{
     font-size: 20px;
     font-weight: 500;
@@ -96,7 +97,7 @@ nav ul li a{
 }
 .new-btn{
     align-items: center;
-
+ 
 }
 .btn-start{
     Width:162px;
@@ -110,7 +111,7 @@ nav ul li a{
     display: inline-block;
     font-size: 20px;  
 }
-
+ 
 .play-icon{
     height: 60px;
     margin-left: 60px;
@@ -142,7 +143,7 @@ nav ul li a{
     justify-content: space-between;
     font-size: 17px;
     font-weight: 500;
-    
+ 
 }
 .circle-check-right{
     display: flex;
@@ -154,8 +155,8 @@ nav ul li a{
 .circle-info{
     color: #757095;
 }
-
-
+ 
+ 
 .hero-right-side{
     position: absolute;
     top: 10%;
@@ -168,7 +169,7 @@ nav ul li a{
     bottom: 0;
     right: 10%;
 }
-
+ 
 .design-corner{
     position: absolute;
     z-index: 10;
@@ -188,21 +189,134 @@ nav ul li a{
     right: 0;
     top: 25%;
 }
-
-
-
+.menu{
+    display: none;
+}
+.zero-btn{
+    display: none;
+}
+.hero .smallNav{
+    display: none;
+}
+.hero-btn{
+    display: flex;
+    width: 223px;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+ 
 @media screen and (max-width: 640px) {
-    .hero ul li{
+    .hero ul {
         display: none;
-    }   
+    }
+    .btn{
+        width: 110px;
+        height: 40px;
+    }
     .hero-btn{
+        display: none;
+    }
+    .zero-btn{
+        display: block;
+        margin-top: 215px;
+        padding: 0px 20px;
+        width: 26rem;
+        position: absolute;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
     } 
     .sign-btn{
         margin-right: 10px;
+        width: 80px;
+        font-size: 18px;
     }
     .logo{
-        width:500px
+        width:120px
     }
+    .hero-right-side{
+        display: none;
+    }
+    .content{
+        margin-top: 20%;
+        width: 300px;
+    }
+    .menu {
+        display: block;
+        font-size: 22px;
+    }
+    .content h1{
+        line-height: 36px;
+        font-size: 30px;
+    }
+    .content .content-info{
+        margin-top: 15%;
+        font-size: 18px;
+        width: 400px;
+    }
+    .new-btn{
+        margin-top: 30%;
+    }
+    .btn-start{
+        width: 140px;
+        height: 50px;
+    }
+    .play-icon{
+        height: 50px;
+        margin-left: 36px;
+    }
+    .icon-content{
+        width: 140px;
+    }
+    .hero-botton-content{
+        margin-top: 68px;
+        width: 380px;
+    }
+    .hero .smallNav {
+        display: block;
+    }
+    .hero .smallNav ul{
+        width: 26rem;
+        margin-top: 50px;
+        margin-right: 10%;
+        padding-bottom: 10%;
+        position: absolute;
+        display: block;
+        background-color: #b4d2dd;
+    }
+    .hero .smallNav ul li{
+        padding: 10px 20px;
+        list-style: none;
+    }
+    .hero .smallNav ul li:hover{
+        background-color: #C9E7F2;
+    }
+    .hero .smallNav ul li a{
+        position: relative;
+        text-decoration: none;
+        color: #111;
+        font-family: 'Manrope';
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+ 
+@media screen and (max-width: 1008px){
+    .hero-right-side{display: none;}
+ 
+    .hero-btn{
+        justify-content: normal;
+        width: 45%;
+ 
+    }
+    .hero-btn .sign-btn{
+        width: 103px;
+        margin-right: 8px;
+        margin-left: 20px;
+    }
+    .hero-btn .btn{
+        width: 60%;
+    }
+ 
 }
