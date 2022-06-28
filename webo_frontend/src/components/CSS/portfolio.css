@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .portfolio-top-left{
-    width: 30%;
+    width: 40%;
     /* margin-right: 500px;   */
 }
 .portfolio-top-left h1{
@@ -19,7 +19,7 @@
     font-size: 56px;
     line-height: 66px;
     margin-bottom: 25px;
-    width: 464px;
+    width: 480px;
 }
 .portfolio-top-left p{
     font-family: 'Manrope';
